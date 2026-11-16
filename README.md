@@ -7,9 +7,9 @@
 **Limpia tu Android TV o Google TV desde tu celular. Sin computadora, sin cables y sin root.**
 Quita la publicidad, el rastreo y las apps que no usas, pon una pantalla de inicio estilo Apple TV con el tema que más te guste y tu propio fondo de pantalla.
 
-[![Versión](https://img.shields.io/badge/versión-1.3-0A84FF?style=for-the-badge)](../../releases/latest)
+[![Versión](https://img.shields.io/badge/versión-2.0-0A84FF?style=for-the-badge)](../../releases/latest)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
-[![Tamaño](https://img.shields.io/badge/APK-619%20KB-5AC8FA?style=for-the-badge)](../../releases/latest)
+[![Tamaño](https://img.shields.io/badge/APK-2.2%20MB-5AC8FA?style=for-the-badge)](../../releases/latest)
 [![Idiomas](https://img.shields.io/badge/idiomas-ES%20·%20EN%20·%20PT-F59E0B?style=for-the-badge)](#-idiomas)
 [![Uso libre](https://img.shields.io/badge/uso-libre%20y%20sin%20fines%20de%20lucro-30D158?style=for-the-badge)](#-uso-libre)
 
@@ -54,7 +54,10 @@ Quita la publicidad, el rastreo y las apps que no usas, pon una pantalla de inic
 | ⭐ | **Recomendadas** | Te marca lo que la mayoría de las TVs probadas desactivan y te dice en cuántas se desactivó cada app. |
 | 📋 | **Lista de tu modelo** | Aplica la lista de un modelo igual o parecido al tuyo; primero salen los de tu marca. |
 | 🔒 | **Protección** | No deja tocar los paquetes base de Android, Play Store, los servicios de Google, tu pantalla de inicio ni tu teclado. |
-| 🍎 | **Inicio estilo Apple TV** | Instala el launcher del proyecto original: dock con tus apps favoritas, cuadrícula, entradas HDMI, reloj y protector de pantalla. |
+| 🍎 | **Inicio estilo Apple TV** | Instala el launcher del proyecto original, ya configurado con el **Estilo CleanYourTV**: 6 columnas, dock de vidrio, reloj con fondo y biblioteca de apps. |
+| 🎨 | **Solo el launcher** | Si tu TV ya lo tiene, cambia el tema o el fondo sin reinstalar ni limpiar nada. La app te muestra el fondo actual. |
+| 🧭 | **Paso a paso** | Limpiar → Inicio y temas → Revisar y respaldar → Aplicar, y al final eliges otra TV o repites. |
+| 🖼️ | **Íconos de las apps** | Cada app muestra su ícono para reconocerla rápido, y una ficha con qué hace y por qué quitarla. |
 | 🎨 | **30 temas** | Elige el que más te guste con su vista previa. Se descarga solo cuando lo aplicas, para que la app pese poco. |
 | 🖼️ | **Tu propio fondo** | Elige cualquier imagen de tu celular; se recorta a 16:9 y queda como fondo de la pantalla de inicio. |
 | 📊 | **Pantalla de progreso** | Ves cada paso mientras se aplica: apps, launcher, tema y fondo. Al terminar, **la TV se reinicia sola**. |
@@ -76,7 +79,7 @@ Quita la publicidad, el rastreo y las apps que no usas, pon una pantalla de inic
 
 ### 📥 Instalar y usar
 
-1. Descarga `CleanYourTV-v1.3.apk` desde [**Releases**](../../releases/latest) e instálalo en tu celular. Android te pedirá permitir instalar apps de esta fuente.
+1. Descarga `CleanYourTV-v2.0.apk` desde [**Releases**](../../releases/latest) e instálalo en tu celular. Android te pedirá permitir instalar apps de esta fuente.
 2. **En tu TV:** Ajustes → Preferencias del dispositivo → Información → presiona **7 veces** *Compilación*. Regresa → Opciones para desarrolladores → activa **Depuración USB** y, si aparece, **Depuración de red / ADB**.
 3. Conecta tu celular y tu TV a **la misma red Wi-Fi**.
 4. Abre **CleanYourTV**, toca **Buscar TVs en mi red** (o escribe la IP) y acepta en la TV el mensaje *"¿Permitir la depuración?"*.
