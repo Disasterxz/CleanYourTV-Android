@@ -7,9 +7,9 @@
 **Limpia tu Android TV o Google TV desde tu celular. Sin computadora, sin cables y sin root.**
 Quita la publicidad, el rastreo y las apps que no usas, pon una pantalla de inicio estilo Apple TV con el tema que más te guste y tu propio fondo de pantalla.
 
-[![Versión](https://img.shields.io/badge/versión-1.0-0A84FF?style=for-the-badge)](../../releases/latest)
+[![Versión](https://img.shields.io/badge/versión-1.1-0A84FF?style=for-the-badge)](../../releases/latest)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
-[![Tamaño](https://img.shields.io/badge/APK-564%20KB-5AC8FA?style=for-the-badge)](../../releases/latest)
+[![Tamaño](https://img.shields.io/badge/APK-577%20KB-5AC8FA?style=for-the-badge)](../../releases/latest)
 [![Idiomas](https://img.shields.io/badge/idiomas-ES%20·%20EN%20·%20PT-F59E0B?style=for-the-badge)](#-idiomas)
 [![Uso libre](https://img.shields.io/badge/uso-libre%20y%20sin%20fines%20de%20lucro-30D158?style=for-the-badge)](#-uso-libre)
 
@@ -44,7 +44,8 @@ Quita la publicidad, el rastreo y las apps que no usas, pon una pantalla de inic
 
 | | Función | Detalle |
 |---|---|---|
-| 📡 | **Encuentra tu TV sola** | Busca en tu red Wi-Fi las TVs con depuración activa. También puedes escribir la **IP y el puerto** a mano. |
+| 📡 | **Encuentra tu TV sola** | Busca en tu red Wi-Fi las TVs con depuración activa y te muestra **su nombre o modelo, la IP y el puerto**. También puedes escribirlos a mano y **cancelar la vinculación** cuando quieras. |
+| 🧭 | **Guía paso a paso** | Te explica cómo activar la depuración en tu TV, con botones **Atrás y Siguiente**. |
 | 🧹 | **Limpia tu TV** | Desactiva publicidad, telemetría y apps preinstaladas usando las **481 listas probadas** por la comunidad en TVs reales de 131 marcas. |
 | ⭐ | **Recomendadas** | Te marca lo que la mayoría de las TVs probadas desactivan y te dice en cuántas se desactivó cada app. |
 | 📋 | **Lista de tu modelo** | Aplica la lista de un modelo igual o parecido al tuyo; primero salen los de tu marca. |
@@ -71,7 +72,7 @@ Quita la publicidad, el rastreo y las apps que no usas, pon una pantalla de inic
 
 ### 📥 Instalar y usar
 
-1. Descarga `CleanYourTV-v1.0.apk` desde [**Releases**](../../releases/latest) e instálalo en tu celular. Android te pedirá permitir instalar apps de esta fuente.
+1. Descarga `CleanYourTV-v1.1.apk` desde [**Releases**](../../releases/latest) e instálalo en tu celular. Android te pedirá permitir instalar apps de esta fuente.
 2. **En tu TV:** Ajustes → Preferencias del dispositivo → Información → presiona **7 veces** *Compilación*. Regresa → Opciones para desarrolladores → activa **Depuración USB** y, si aparece, **Depuración de red / ADB**.
 3. Conecta tu celular y tu TV a **la misma red Wi-Fi**.
 4. Abre **CleanYourTV**, toca **Buscar TVs en mi red** (o escribe la IP) y acepta en la TV el mensaje *"¿Permitir la depuración?"*.
