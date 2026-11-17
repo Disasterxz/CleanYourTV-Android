@@ -7,7 +7,7 @@
 **Limpia tu Android TV o Google TV desde tu celular. Sin computadora, sin cables y sin root.**
 Quita la publicidad, el rastreo y las apps que no usas, pon una pantalla de inicio estilo Apple TV con el tema que más te guste y tu propio fondo de pantalla.
 
-[![Versión](https://img.shields.io/badge/versión-2.5-0A84FF?style=for-the-badge)](../../releases/latest)
+[![Versión](https://img.shields.io/badge/versión-2.6-0A84FF?style=for-the-badge)](../../releases/latest)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
 [![Tamaño](https://img.shields.io/badge/APK-2.2%20MB-5AC8FA?style=for-the-badge)](../../releases/latest)
 [![Idiomas](https://img.shields.io/badge/idiomas-ES%20·%20EN%20·%20PT-F59E0B?style=for-the-badge)](#-idiomas)
@@ -46,6 +46,8 @@ Quita la publicidad, el rastreo y las apps que no usas, pon una pantalla de inic
 |---|---|---|
 | 📡 | **Encuentra tu TV sola** | Busca en tu red Wi-Fi las TVs con depuración activa y te muestra **su nombre o modelo, la IP y el puerto**. También puedes escribirlos a mano y **cancelar la vinculación** cuando quieras. |
 | 🧭 | **Guía paso a paso** | Te explica cómo activar la depuración en tu TV, con botones **Atrás y Siguiente**. |
+| 📖 | **Guías por marca** | Paso a paso para Android TV (Hyundai, Philips, Sharp, RCA…), Google TV y Chromecast, Xiaomi, Sony, TCL, Fire TV, NVIDIA Shield, proyectores Android y TV Box, más una lista de qué revisar si **la TV no responde**. |
+| 📦 | **Instalar apps (APK)** | Elige uno o varios APK de tu celular y se instalan en la TV, con el avance de cada uno (copiando, instalando, listo) y un botón para abrirla. También desde la página web, arrastrando los archivos. |
 | 🧹 | **Limpia tu TV** | Desactiva publicidad, telemetría y apps preinstaladas usando las **481 listas probadas** por la comunidad en TVs reales de 131 marcas. |
 | 🎚️ | **4 niveles de limpieza** | **Normal** (solo anuncios y rastreo), **Medio** (recomendado), **Fuerte** y **Extremo**, cada uno con su explicación y cuántas apps quita en tu TV. |
 | 💡 | **Qué hace cada app** | Toca ⓘ en cualquier app para ver qué hace, por qué conviene quitarla y su nivel de riesgo. |
@@ -82,18 +84,31 @@ Quita la publicidad, el rastreo y las apps que no usas, pon una pantalla de inic
 
 ### 📥 Instalar y usar
 
-1. Descarga `CleanYourTV-v2.5.apk` desde [**Releases**](../../releases/latest) e instálalo en tu celular. Android te pedirá permitir instalar apps de esta fuente.
-2. **En tu TV:** Ajustes → Preferencias del dispositivo → Información → presiona **7 veces** *Compilación*. Regresa → Opciones para desarrolladores → activa **Depuración USB** y, si aparece, **Depuración de red / ADB**.
+1. Descarga `CleanYourTV-v2.6.apk` desde [**Releases**](../../releases/latest) e instálalo en tu celular. Android te pedirá permitir instalar apps de esta fuente.
+2. **En tu TV**, activa las opciones para desarrolladores y la **Depuración USB** (busca tu marca en la tabla de abajo; la app trae las mismas guías con más detalle).
 3. Conecta tu celular y tu TV a **la misma red Wi-Fi**.
 4. Abre **CleanYourTV**, toca **Buscar TVs en mi red** (o escribe la IP) y acepta en la TV el mensaje *"¿Permitir la depuración?"*.
 5. Elige qué limpiar, el launcher, el tema y tu fondo, y toca **Aplicar y reiniciar**.
+
+### 🛠️ Activar la depuración según tu TV
+
+| TV | Dónde se activa |
+|---|---|
+| **Android TV** (Hyundai, Philips, Sharp, RCA, JVC, Kalley, Panasonic, Toshiba, Sony, TCL, Xiaomi…) | Ajustes → Preferencias del dispositivo → Información → presiona OK **7 veces** en *Compilación* → regresa → Opciones para desarrolladores → **Depuración USB** |
+| **Google TV** (Chromecast con Google TV, onn 4K, TCL, Sony, Hisense con Google TV) | Ajustes → Sistema → Información → **7 veces** en *Compilación del SO Android TV* → Sistema → Opciones para desarrolladores → **Depuración USB** |
+| **Amazon Fire TV** | Ajustes → Mi Fire TV → Acerca de → **7 veces** en el nombre del equipo → Opciones para desarrolladores → **Depuración ADB** |
+| **NVIDIA Shield** | Ajustes → Preferencias del dispositivo → Información → **7 veces** en *Compilación* → Opciones para desarrolladores → **Depuración de red** |
+| **Proyectores Android** (HY300, Magcubic…) y **TV Box** (MXQ, X96…) | Ajustes → Acerca de → **7 veces** en *Compilación* → Opciones para desarrolladores → **Depuración USB** y, si aparece, **ADB por red**. Solo los que traen Android. |
+
+**¿La TV no responde?** Enciende la pantalla de la TV (el aviso para permitir aparece ahí), apaga y vuelve a activar *Depuración USB*, y si sigue igual **desconecta la TV o el Chromecast de la corriente 10 segundos**. Revisa que no estés en la red de invitados ni con VPN en el celular. La opción *Depuración inalámbrica* (la que pide código) todavía no es compatible: usa *Depuración USB* (puerto 5555).
 
 ### 📺 Compatibilidad
 
 | TV | ¿Funciona? |
 |---|---|
 | **Android TV y Google TV** (Sony, TCL, Hisense Android, Philips, Xiaomi, Chromecast, cajas Android…) | ✅ Limpieza, launcher, temas y fondo. |
-| **Fire TV** | ⚠️ Solo limpieza: Fire OS no permite cambiar la pantalla de inicio. |
+| **Fire TV** | ⚠️ Limpieza e instalar APKs: Fire OS no permite cambiar la pantalla de inicio. |
+| **Proyectores y TV Box con Android** | ✅ Si tienen opciones para desarrolladores. Los proyectores que solo reproducen USB/HDMI no tienen Android. |
 | **Samsung (Tizen), LG (webOS), Roku, Vizio, Hisense VIDAA** | ❌ No tienen ADB. |
 
 > Funciona con la depuración por red clásica (puerto 5555). Las TVs que solo ofrecen la "Depuración inalámbrica" con código de emparejamiento de Android 11+ todavía no son compatibles.
@@ -119,6 +134,8 @@ Esta app es **solo para uso libre, sin fines de lucro ni de recaudación**. No v
 - **Installs the Apple TV style launcher** from the original project.
 - **30 themes** with previews, plus **your own wallpaper** from your phone.
 - **Progress screen** for every step, and the **TV restarts automatically** at the end.
+- **Install APKs** from your phone (or by dropping them on the local web page) with live progress.
+- **Step-by-step guides by TV brand** to turn on USB debugging, plus a checklist when the TV doesn't respond.
 - **Restore** anything at any time. Light and dark mode. **Spanish, English and Portuguese.**
 
 Download the APK from [**Releases**](../../releases/latest). Requires Android 8.0+ on the phone. **Free use only, non-profit, no fundraising.**
@@ -133,6 +150,8 @@ Download the APK from [**Releases**](../../releases/latest). Requires Android 8.
 - **Remove anúncios, rastreamento e apps desnecessários** com **481 listas testadas** pela comunidade.
 - **Instala o launcher estilo Apple TV** do projeto original, com **30 temas** e **seu próprio fundo**.
 - **Tela de progresso** e a **TV reinicia sozinha** no final. Tudo pode ser restaurado.
+- **Instala APKs** do celular (ou arrastando na página web local) mostrando o progresso.
+- **Guias passo a passo por marca** para ativar a depuração USB, e o que conferir se a TV não responde.
 
 Baixe o APK em [**Releases**](../../releases/latest). **Uso livre, sem fins lucrativos nem de arrecadação.**
 
